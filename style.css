@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 5vh;
+    width:100vw;
+    box-shadow: 0px 0px 10px 0px;
+    opacity: 70%;
+    
+}
+.navitem a{
+    text-decoration: none;
+    color: grey;
+}
+.navitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    padding-left: 30px;
+}
+.search{
+    padding-right: 40px;
+}
+
+.main{
+    height: 95vh;
+    width: 100vw;
+    background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+}
+.heading{
+    background-color: black;
+    color: aliceblue;
+    padding:15px ;
+    font-weight: lighter;
+    
+}
+.about{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,20vw);
+    grid-template-rows: 15vh  20vh 30vh;
+    grid-template-areas: 
+    "a1 a1"
+    "a2 a2"
+    "a3 a4";
+    opacity: 70%;
+}
+.child1{
+    grid-area: a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.child2{
+    grid-area: a2;
+}
+.child3{
+    grid-area: a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.child4{
+    grid-area: a4;
+}
+.imgs{
+    opacity: 70%;
+}
+.imgs:hover{
+    opacity: 100%;
+}
+
+.goodat{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    opacity: 70%;
+    margin-top: 50px;
+}
+.goodin{
+    margin: 20px;
+}
+.grey{
+    background-color: grey;
+    margin: 10px;
+}
+.black{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
